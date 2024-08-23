@@ -1,10 +1,13 @@
-import logo from './logo.svg';
+import React from 'react';
 import Front from "./components/Front"
+import Questions from './components/Questions';
 
 function App() {
+  const [frontPage, setFrontPage] = React.useState(true);
+
   return (
     <div>
-      <Front />
+      {frontPage ? <Front onHide={() => setFrontPage(false)}/> : <Questions />}
     </div>
     
   )
