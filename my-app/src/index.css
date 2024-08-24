@@ -39,3 +39,41 @@ h2 {
   cursor: pointer;
   margin-top: 10px;
 }
+
+.questions-list{
+  padding-left: 50px;
+  padding-top: 20px;
+  padding-right: 50px;
+}
+
+.question {
+  color: #4D5B9E;
+  font-weight: bold;
+}
+
+.answer-list {
+  display: flex;
+}
+
+.answer-button{
+  padding: 5px 10px;
+  margin-right: 15px;
+  border-color: #293264;
+  border-radius: 15px;
+}
+
+.checkButton{
+  display: flex;
+  justify-self: center;
+  align-self: center;
+  padding: 10px 20px;
+  border-radius: 15px;
+  background-color: #4D5B9E;
+  color: white;
+}
+
+.app-question-page{
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+}
