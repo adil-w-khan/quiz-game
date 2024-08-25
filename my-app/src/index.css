@@ -60,6 +60,22 @@ h2 {
   margin-right: 15px;
   border-color: #293264;
   border-radius: 15px;
+  font-size: 1em;
+}
+
+.answer-button.selected {
+  background-color: #D6DBF5;
+  color: white;
+}
+
+.answer-button.correct {
+  background-color: #94D7A2;
+  color: white;
+}
+
+.answer-button.incorrect {
+  background-color: #F8BCBC;
+  color: white;
 }
 
 .checkButton{
@@ -76,4 +92,16 @@ h2 {
   display: flex;
   flex-direction: column;
   padding-bottom: 10px;
+}
+
+.bottom-page-elements{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.score{
+  margin-right: 20px;
+  font-weight: bold;
+  font-size: 1rem;
 }
